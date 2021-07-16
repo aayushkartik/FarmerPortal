@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register yourself</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>farmer info</title>
+    <meta name="viewport" content="width= device-width">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="farmertesting.js"></script>
+    <link rel="stylesheet" href="commonstyle.css">
+</head>
+<body>
+    <h1>Farmer registeration portal</h1>
+    <br>
+<form  name ='forms' id='abc'  onsubmit="return validation()" method="POST">
+    <div class="modify">
+    <label>FirstName</label><br>
+    <input type="text" id='fname' name ='firstName'required><br>
+    <span id ='name1'></span><br>
+    <label>LastName</label><br>
+    <input type="text" name='lastname' id='lname' required><br>
+    <span id='name2'></span><br>
+    <label>Date of Birth</label><br>
+    <input type="date" name='dob'id='db'required><br>
+    <span id=date></span><br>
+    <label>Mobile Number(exculding +91)</label><br>
+    <input type="tel" name='telephone' maxlength="10" required id='tele'><br>
+    <span id ='tel1'></span><br>
+    <label>Password</label><br>
+    <input type="password" name='pass1' minlength='4' maxlength="5"required id='word1'><br>
+    <span id ='pas1'></span><br>
+    <label>Confirm Password</label><br>
+    <input type="password" name='pass2' minlength='4' maxlength="5" required id='word2'><br>
+    <span id ='pas2'></span><br>
+    <label>State</label><br>
+    <input type="text" name='state'required id='state'><br>
+    <span id='state1'></span><br>
+    <label>PINCODE</label><br>
+    <input type="text" name='pin' maxlength="6" id='pin' required><br>
+    <span id='pin1'></span><br>
+    <label>City</label><br>
+    <input type="text" name='city' required id='cities'><br>
+    <span id='city1'></span><br>
+    </div>
+    <label>Produce you want to sell</label><br>
+    <input type="checkbox" name='product1'>Rice<br>
+    <input type="checkbox" name='product1'>Wheat<br>
+    <input type="checkbox" name='product1'>Tea<br>
+    <input type="checkbox" name='product1'>Coffee<br>
+    <input type="checkbox" name='product1'>Pulses/Course cereals/Millets<br>
+    <input type="checkbox" name='product1'>Maize<br>
+    <input type="checkbox" name='product1'>Others<br>
+    <span id='sell'></span><br>
+    <label>Are you able to provide home delivery in different States?</label><br>
+    <input type="radio" name='delivery1' value='Yes'> Yes<br>
+    <input type="radio" name='delivery1' value='No'> No<br>
+    <span id='rad1'></span><br>
+    <br>
+    <label>Are you able to provide home delivery within same State?</label><br>
+    <input type="radio" name='delivery2' value='Yes'> Yes<br>
+    <input type="radio" name='delivery2' value='No'> No<br>
+    <span id='rad2'></span><br>
+    <br>
+    <label>Are you able to provide home delivery within same City?</label><br>
+    <input type="radio" name='delivery3' value='Yes'> Yes<br>
+    <input type="radio" name='delivery3' value='No'> No<br>
+    <span id='rad3'></span><br>
+    <input type="submit" value="register" id='sub'>
+</form>
+</body>
+</html>

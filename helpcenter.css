@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;  
+}
+
+:root{
+    --main-font:'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    background-color:white; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.table-header h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--main-font);
+    color:black;
+    background-color: green;
+    background-image: linear-gradient(to right,green,white);
+    padding: 20px;
+    margin: 15px;
+}
+   
+ h2{
+    text-align: left;
+    font-size: 2rem;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    color: green;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    
+}
+
+
+.table-content h3{
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: var(--main-font);
+    color: green;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-left: 15px;
+   
+     
+}
+p{
+    width: auto;
+    text-align: justify;
+    font-family: var(--main-font);
+    margin-left: 20px;
+    padding: 5px 10px 10px;
+    background-color: #fff;
+    font-size: 1.1em;
+    line-height: 26px;
+    color:black;
+    clear: both;
+}
+#command{
+    font-family:var(--main-font);
+  
+   width: 100%;
+   border-collapse: collapse;
+    margin-left: 20px;
+   
+    margin-bottom: 10%;
+}
+#command td,
+#command th{
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+#command tr:nth-child(even){background-color: #f2f2f2;}
+
+#command tr:hover {background-color: #ddd;}
+
+#command th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#command td{
+    font-weight: bolder;
+}
+
+@media screen and (max-width:400px){
+#command td,command tr
+{
+  padding: 20px;
+}
+#command th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table-header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+}

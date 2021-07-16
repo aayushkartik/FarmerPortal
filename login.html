@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <meta name="viewport" content="width= device-width">
+    <link rel="stylesheet" href="loginstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="logintesting.js"></script>
+</head>
+<body>
+    <div class='header'>FARMER PORTAL</div>
+    
+    <div class='close'><i class="fas fa-window-close"></i></div>
+    <div class='styling'>
+        <img src="800px_COLOURBOX14818805.jpg" class="avatar">
+        <h1>LOGIN</h1>
+        <hr>
+        <form action="login.html" method="POST" onsubmit="return check()">
+            <div class='tbox'>
+                <input type="text" placeholder="Mobile number" id='log' required minlength="10" maxlength="10" value="">
+               <br> <span id='error'></span>
+            </div>
+            <div class='tbox'>
+                <input type="password" placeholder="Password" required minlength="4" maxlength="5" value="" id='pass'>
+               <br> <span id='error1'></span>
+            </div>
+            <input class="btn" type="submit" value="LOGIN">
+        </form>
+        <a href="#" class="not">FORGOT PASSWORD</a>
+        <a href="register.html" class='not'>Not registered? Signup Now</a>
+        <a href="index.html" class='not back'id='home'>back</a>
+    </div>
+</body>
+</html>

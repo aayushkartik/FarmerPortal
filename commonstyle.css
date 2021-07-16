@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(to right,white,rgba(0, 230, 64, .8));
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 8%;
+    text-align: left;
+}
+body h1{
+    font-size: 50px;
+    /* margin: auto; */
+    margin-bottom: 10px;
+    /* position: absolute; */
+    
+}
+span{
+    color: red;
+    margin: auto;
+    font-size: 17px;
+}
+.modify input{
+    width: 200px;
+    height: 20px;
+}

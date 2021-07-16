@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*width: 100%;*/
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+     background-image: url(indian-farmer-chickpea-field-showing-plant-139746790.jpg);
+    background-repeat:no-repeat;
+    background-position: fixed fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    font-size: 60px;
+    font-family: 'Lexend Exa', 'Montserrat';
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    transition-duration: 0.5s;
+    /*background-image: url(indian-farmer-chickpea-field-showing-plant-139746790.jpg) ;*/
+    background-size: cover;
+    /*position: absolute;*/
+}
+.styling hr{
+    width: 70%;
+    margin:auto ;
+    padding: 1px;
+    background: #010101;
+    border: none;
+}
+.styling{
+    width: 380px;
+    height: 570px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* bottom: 20%; */
+    text-align: center;
+    border: 1px ;
+    border-radius: 20px;
+    background: rgba(245,245,245 ,0.2 )
+    /*background: opacity:60%;*/
+    
+}
+.styling h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* color: white; */
+}
+.tbox{
+    width: 260px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px auto;
+    opacity: 100%;
+}
+.tbox input{
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 45px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-weight: 5px;
+    /* color: black; */
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 14px auto;
+    border: none;
+    background-color: rgb(201, 65, 38);
+    color: black;
+    cursor: pointer;
+}
+.not{
+    display: block;
+    /* margin-bottom: 10px ; */
+    margin: 20px auto;
+}
+a{
+    color: black;
+}
+.back{
+    /* font-size: 30px; */
+    border: 2px solid black;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 2px 3px;
+    margin: auto;
+    text-align: center;
+    line-height: -7px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    transition: .4s;
+    
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;   
+}
+span{
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+@media only screen 
+and (max-width: 1200px) {
+    .header{
+    text-align: center;
+    font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1200 - 300)));
+    margin-top: 28px;
+    margin-bottom: 0;
+    }
+    .styling h1{
+        font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1366 - 300)));
+        margin-top: 35px;
+        margin-bottom: 22px;
+        /* color: white; */
+    }
+}
